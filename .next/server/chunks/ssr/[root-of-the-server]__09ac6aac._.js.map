@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/app/home/page.tsx"],"sourcesContent":["export default function HomePage() {\r\n  return (\r\n    <div className=\"bg-[#292018] p-8 rounded-lg shadow-md w-[443px] max-w-sm inset-0 m-auto absolute h-[500px] border-[#F3B43F] border-4\">\r\n      <h1 className=\"text-2xl font-bold mb-6 text-center font-imFeel text-[86px] bg-gradient-to-b from-[#F3B43F] to-[#8D6825] bg-clip-text text-transparent\">\r\n        HOME\r\n      </h1>\r\n      <p className=\"text-center font-imFeel text-[18px] text-white\">\r\n        Bem-vindo à página inicial do jogo! Aqui você encontrará informações\r\n        sobre o seu personagem e suas aventuras.\r\n      </p>\r\n      <p className=\"text-center font-imFeel text-[18px] text-white mt-4\">\r\n        Explore, lute e conquiste novos desafios!\r\n      </p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAyI;;;;;;0BAGvJ,8OAAC;gBAAE,WAAU;0BAAiD;;;;;;0BAI9D,8OAAC;gBAAE,WAAU;0BAAsD;;;;;;;;;;;;AAKzE","debugId":null}}]
+}

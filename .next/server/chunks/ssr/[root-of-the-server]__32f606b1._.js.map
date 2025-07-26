@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/app/dashboard/inventory/page.tsx"],"sourcesContent":["export default function InventoryPage() {\r\n  return (\r\n    <div className=\"flex flex-col items-center justify-center h-full\">\r\n      <h1 className=\"text-4xl font-bold text-gray-800 mb-4\">Meu Inventário</h1>\r\n      <p className=\"text-lg text-gray-600\">Visualize e gerencie seus itens.</p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAwC;;;;;;0BACtD,8OAAC;gBAAE,WAAU;0BAAwB;;;;;;;;;;;;AAG3C","debugId":null}}]
+}

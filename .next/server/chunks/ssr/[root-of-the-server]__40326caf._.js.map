@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/pages/LoginPage.tsx"],"sourcesContent":["import React from \"react\";\r\nimport Login from \"../components/Login/Login\";\r\n\r\nexport default function LoginPage() {\r\n  return (\r\n    <div className=\"homeMe w-full h-screen flex items-center bg-cover justify-center\">\r\n      <Login />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;;;;;;AAGe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC;;;;;;;;;;AAGP","debugId":null}},
+    {"offset": {"line": 47, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/app/page.tsx"],"sourcesContent":["import LoginPage from \"@/pages/LoginPage\";\r\n\r\nexport default function Home() {\r\n  return <LoginPage />;\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC,0HAAA,CAAA,UAAS;;;;;AACnB","debugId":null}}]
+}

@@ -1,7 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap");
 @import "tailwindcss";
-
-
 
 :root {
   --background: #ffffff;
@@ -13,7 +11,7 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-imFeel: 'IM Fell English SC', serif;
+  --font-imFeel: "IM Fell English SC", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -30,9 +28,13 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
+  overflow-x: hidden;
 }
 
 .homeMe {
-  background-image: url('./assets/images/homeMedieval.png');
+  background-image: url("../../public/images/homeMedieval.png");
 }
 
+.homeDash {
+  background-image: url("../../public/images/dashboard-screen.png");
+}

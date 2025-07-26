@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/app/dashboard/page.tsx"],"sourcesContent":["\"use client\";\r\n\r\nimport NavMenu from \"./components/NavMenu\";\r\n\r\nexport default function DashboardPage() {\r\n  return (\r\n    <div className=\"homeDash w-full h-[168%] flex items-center bg-cover justify-center\">\r\n      <NavMenu />\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAU;kBACb,cAAA,8OAAC,iJAAA,CAAA,UAAO;;;;;;;;;;AAGd","debugId":null}}]
+}

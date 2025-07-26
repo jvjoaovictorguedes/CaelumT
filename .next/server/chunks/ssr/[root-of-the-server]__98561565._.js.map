@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/ScreenLogin.tsx"],"sourcesContent":["import React from \"react\";\r\nimport Login from \"./components/Login/Login\";\r\nimport Register from \"./components/Register/Register\";\r\n\r\nexport default function ScreenLogin() {\r\n  return (\r\n    <Router>\r\n      <Routes>\r\n        <Route path=\"/\" element={<Home />} />\r\n        <Route path=\"/about\" element={<About />} />\r\n        {/* Rota 404 */}\r\n        <Route path=\"*\" element={<NotFound />} />\r\n      </Routes>\r\n    </Router>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAIe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;;8BACC,8OAAC;oBAAM,MAAK;oBAAI,uBAAS,8OAAC;;;;;;;;;;8BAC1B,8OAAC;oBAAM,MAAK;oBAAS,uBAAS,8OAAC;;;;;;;;;;8BAE/B,8OAAC;oBAAM,MAAK;oBAAI,uBAAS,8OAAC;;;;;;;;;;;;;;;;;;;;;AAIlC","debugId":null}},
+    {"offset": {"line": 79, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/53543_joao/Documents/Caelum/CaelumT/src/app/page.tsx"],"sourcesContent":["import ScreenLogin from \"@/ScreenLogin\";\r\n\r\nexport default function Home() {\r\n  return (\r\n    <ScreenLogin />\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC,mHAAA,CAAA,UAAW;;;;;AAEhB","debugId":null}}]
+}
